@@ -2,7 +2,7 @@
 
 import { StyleSheet, Dimensions } from 'react-native';
 
-const {height, width} = Dimensions.get('window');
+const { height, width } = Dimensions.get('window');
 
 const PADDING = 8;
 const BORDER_RADIUS = 5;
@@ -13,23 +13,23 @@ const OPTION_CONTAINER_HEIGHT = 400;
 export default StyleSheet.create({
 
     overlayStyle: {
-        width: width,
-        height: height,
+        width,
+        height,
         backgroundColor: 'rgba(0,0,0,0.7)'
     },
 
     optionContainer: {
-        borderRadius:BORDER_RADIUS,
-        width:width*0.8,
-        height:OPTION_CONTAINER_HEIGHT,
-        backgroundColor:'rgba(255,255,255,0.8)',
-        left:width*0.1,
-        top:(height-OPTION_CONTAINER_HEIGHT)/2
+        borderRadius: BORDER_RADIUS,
+        width: width * 0.8,
+        height: OPTION_CONTAINER_HEIGHT,
+        backgroundColor: 'rgba(255,255,255,0.8)',
+        left: width * 0.1,
+        top: (height - OPTION_CONTAINER_HEIGHT) / 2
     },
 
     cancelContainer: {
-        left:width*0.1,
-        top:(height-OPTION_CONTAINER_HEIGHT)/2 + 10
+        left: width * 0.1,
+        top: (height - OPTION_CONTAINER_HEIGHT) / 2 + 10
     },
 
     selectStyle: {
