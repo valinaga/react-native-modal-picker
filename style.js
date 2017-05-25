@@ -24,12 +24,14 @@ export default StyleSheet.create({
         height: OPTION_CONTAINER_HEIGHT,
         backgroundColor: 'rgba(255,255,255,0.8)',
         left: width * 0.1,
-        top: (height - OPTION_CONTAINER_HEIGHT) / 2
+        // top: (height - OPTION_CONTAINER_HEIGHT) / 2
+        bottom: 40,
     },
 
     cancelContainer: {
         left: width * 0.1,
-        top: (height - OPTION_CONTAINER_HEIGHT) / 2 + 10
+        // top: (height - OPTION_CONTAINER_HEIGHT) / 2 + 10
+        bottom: 10,
     },
 
     selectStyle: {
